@@ -73,7 +73,7 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
     Description.BackgroundTransparency = 1
     Description.Position = UDim2.new(0.15, 0, 0.5, 0)
     Description.Size = UDim2.new(0, 300, 0, 20)
-    Description.Font = Enum.Font.Gotham
+    Description.Font = Enum.Font.BuilderSans
     Description.Text = Desc
     Description.TextColor3 = Color3.fromRGB(200, 200, 200)
     Description.TextSize = 14
